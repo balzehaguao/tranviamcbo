@@ -35,12 +35,17 @@ body, html{
         
 }
 
-ul{
+nav{
+    background-color: rgb(7, 7, 7);
+    list-style: none;
+}
+
+ul #primero{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(7, 7, 7);
+    list-style: none;
 }
 #imgfb{
     margin-left: 200px
@@ -63,6 +68,7 @@ ul{
 
 #primero li a:hover {
     background-color: rgb(104, 7, 7);
+    list-style: none;
 }
 
 
